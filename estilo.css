@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat, sans-serif';
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(127, 225, 255);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li{
+    float: left;
+} 
+a{
+    text-decoration: none;
+}
+.navbar li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.brand{
+    margin-top: 0;
+}
+.brand span{
+    color: red;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color: beige;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: blue;
+}
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+.download-CV{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.portafolio-headings{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.download-CV:hover{
+    background-color: aliceblue;
+}
+.main img{
+    width: 450px;
+    height: 510px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+.about-info h2{
+    font-size: 8ex;
+}
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 3em;
+}
+.container-contact img{
+    opacity: 30%;
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+    margin: 0 auto;
+    padding: 3em;
+}
